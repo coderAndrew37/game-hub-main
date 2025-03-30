@@ -9,7 +9,6 @@ import PlatformSelector from "./components/PlatformSelector";
 import SortSelector from "./components/SortSelector";
 import { Platform } from "./hooks/useGames";
 import { Genre } from "./hooks/useGenres";
-import TodoList from "./components/react-query/TodoList";
 
 export interface GameQuery {
   genre: Genre | null;
