@@ -7,8 +7,8 @@ import NavBar from "./components/NavBar";
 import PlatformSelector from "./components/PlatformSelector";
 
 import SortSelector from "./components/SortSelector";
-import { Platform } from "./hooks/useGames";
 import { Genre } from "./hooks/useGenres";
+import { Platform } from "./types/platformTypes";
 
 export interface GameQuery {
   genre: Genre | null;
